@@ -1,0 +1,56 @@
+.fixed-top {background:#fff; border-top:20px solid #8d7e5f;}
+
+@media (min-width: 1px) and (max-width: 1089px) {
+
+	.fixed-header {display:none;}
+	.login{display:block}
+	.ety-mt-main{margin-top:0px;}
+	.ety-mt-qa{margin-top:0px;}
+	.mpage{display:block;}
+	.ppage{display:none;}
+	.spage{overflow-x:auto;white-space: nowrap;}
+	
+}
+
+
+@media (min-width: 1090px) {
+	.navbar-brand img {}
+	.fixed-header {display:block;}
+	.login{display:block; position:absolute; right:0%;}
+	.ety-mt-main{margin-top:0px;}
+	.ety-mt {margin-top:0px;}
+	.ety-mt-qa{margin-top:0px;}
+	.mpage{display:none;}
+	.ppage{display:block;}
+	.navbar-brand {margin:0;}
+
+	/* header */
+	.fixed-header {
+		position: fixed;
+		top: 0px;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+		display:none;
+	}
+
+	.top-line {} /* 상단 탑 배경*/
+
+	.fixed-top {
+		position: relative;
+		top: 0px;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+		background:#fff;
+	}
+}
+
+
+@media (max-width: 1100px) {
+	.ety-mt{margin-top:0px;}
+}
+
+@media (max-width: 991px) {
+	.ety-mt{margin-top:50px;}
+}

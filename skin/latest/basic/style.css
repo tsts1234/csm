@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* 새글 스킨 (latest) */
+
+.lat {position:relative; overflow:hidden; background:#fff}
+.lat .lat_title {display:block;padding:0 20px;line-height:45px;font-size:1.083em;border-bottom:1px solid #e2e2e2;color:#253dbe;background:#fcfcfc}
+.lat .lat_title a{color:#253dbe;display:inline-block;position:relative}
+.lat .lat_title a:after{position:absolute;bottom:-1px;left:0;width:100%;height:2px;background:#253dbe;content:''}
+.lat ul {padding:15px 20px; margin:0px;}
+.lat li {position:relative;line-height:40px; text-align:left; ccpadding-right:50px;}
+.lat li:before{position: absolute;top: 12px;left: 0px;width: 0px;height: 0px;background: #aaa;content: '';border-radius: 50%;}
+.lat li a {text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.lat li a:hover{color:#a22121}
+.lat li .fa-heart{color:#ff0000;}
+.lat li .fa-lock{display: inline-block; line-height: 14px; width:16px;font-size: 0.833em;color: #4f818c;background: #cbe3e8;text-align: center;border-radius: 2px;font-size: 12px;border:1px solid #a2c6ce}
+.lat li .new_icon{display:inline-block; width: 16px; line-height:16px;font-size:0.833em;color:#fff;background:#b5080c;text-align:center;border-radius: 2px;}
+.lat li .hot_icon{display:inline-block; width: 16px; line-height:16px ;font-size:0.833em;color:#fff;background:#e52955;text-align:center;border-radius: 2px;}
+.lat li .fa-caret-right{color:#bbb}
+.lat .lt_date{position:absolute;top:3px;right:0;color:#888}
+.lat  .empty_li{line-height:145px ;color:#666;text-align:center;padding:0;}
+.lat  .empty_li:before{background:none;padding:0}
+
+.lat .lt_cmt{background:#5c85c1;color:#fff; font-size:11px;height:16px;line-height:16px;padding:0 5px;border-radius:3px;
+-webkit-box-shadow: inset 0 2px 5px  rgba(255,255,255,0.4);
+-moz-box-shadow: inset 0 2px 5px  rgba(255,255,255,0.4);
+box-shadow: inset 0 2px 5px  rgba(255,255,255,0.4);}
+.lat .lt_more {position:absolute; top:11px; right:10px; display:none; width:25px;line-height:25px;color:#aaa;border-radius:3px;text-align:center;}
+.lat .lt_more:hover{color:#777}
+
+@media screen and (max-width: 1400px) {
+	.lat li a {font-size:13px;}
+}
+
+@media screen and (max-width: 1000px) {
+	.lat li  {overflow:hidden;}
+	.lat li .new_icon {float:left; width:10%; margin-right:5%;}
+	.lat li a {float:left;  width:65%;}
+	.lat .lt_date {float:left;  width:20%; top:6px; text-align:right;}
+}
+
+
+@media screen and (max-width: 640px) {
+	.lat li  {overflow:hidden; line-height:normal; padding-bottom:5%;}
+	.lat li .new_icon {float:left; width:10%; margin-right:5%;}
+	.lat li a {float:left;  width:65%; font-size:15px;}
+	.lat .lt_date {float:left;  width:20%; top:2px; font-size:12px; text-align:right;}
+	.pic_lt li {padding:0% 2% 5% 2%;}
+	.pic_lt ul {padding:0%; margin:0px;}
+	.pic_lt li a {text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+}

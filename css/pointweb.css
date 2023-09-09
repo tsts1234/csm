@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* Base Layout - 기본정의 css 공간 */
+@import url(base.css);
+@import url(style.css);
+@import url(index.css);
+@import url(about.css);
+@import url(brand.css);
+@import url(product.css);
+@import url(store.css);
+@import url(board.css);
+@import url(common.css);
+@import url(animate.css);
+/*
+@import url(layout.css);
+@import url(contents.css);
+*/
+
+.cutString
+{
+    white-space: nowrap;
+    text-overflow:ellipsis;         /* IE, Safari - ellipsis, clip */
+    -o-text-overflow:ellipsis; /* Opera under 10.7 - ellipsis, clip */ 
+    overflow: hidden;           /* "overflow" value must be different from "visible" */
+    -moz-binding:url(/ellipsis.xml#ellipsis);
+}
+

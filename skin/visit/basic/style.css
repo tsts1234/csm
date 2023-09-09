@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+/* 방문자 집계 */
+#visit {position:relative; width:100%;}
+#visit .btn_admin{position:absolute; top:0px; right:0%; height:25px; line-height:25px; padding:0 5px; border-radius:3px;}
+#visit h2 {font-size:1.167em; text-align:center; padding-bottom:15px; padding-top:25px; color:#16b3d6; position:relative;}
+#visit h2 i{position:absolute; top:-22px; left:50%; width:44px; line-height:44px; margin-left:-22px; border-radius:25px; background:#16b3d6; color:#fff;}
+#visit dl {margin:0 auto; margin-bottom:3%;}
+#visit dl:after {display:block; visibility:hidden; clear:both; content:"";}
+#visit dt {display:inline; font-weight:normal; padding:0;line-height:23px;height:23px;color:#fff;}
+#visit dt span{display:inline-block; width:5px; height:5px; border-radius:50%; vertical-align:middle;}
+#visit dd {display:inline; padding:0 15px 0 5px; font-weight:normal; text-align:left; line-height:23px; height:23px; font-size:0.92em;}
+#visit dd strong{display:inline-block; padding:0 5px; border-radius:20px; line-height:15px; color:#fff;}

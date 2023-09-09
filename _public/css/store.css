@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+/* pointweb.co.kr by GIL */
+
+/* 판매점 */
+#store {background:url("/_public/images/index/idbg1.jpg") 50% 50% repeat;background-size: cover}
+#store.scbox {padding-bottom:7.9rem}
+#store .box {width:100%;position:relative;display:inline-block}
+
+/* 판매점 카테고리 */
+#store .section1 {margin-bottom:3.7rem}
+#store .prtab {width:100%;display:inline-block}
+#store .prtab li {width:25%;float:left;height:56px;}
+#store .prtab li:last-child {margin-right:0}
+#store .prtab li a {display:inline-block;width:100%;height:100%;position:relative;text-align:center;}
+#store .prtab li a:before,
+#store .prtab li a:after {content:"";display:inline-block;position:absolute;width:100%;height:100%}
+#store .prtab li a:before {left:0;z-index:1;background:url("/_public/images/sub/pr2.svg") center top no-repeat;}
+#store .prtab li a:after {left:-2px;top:3px;z-index:0;background:url("/_public/images/sub/pr2_on.svg") center top no-repeat;opacity:0;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: transition: opacity 0.5s;
+  -o-transition:transition: opacity 0.5s;
+  transition: opacity 0.5s;}
+#store .prtab li.on a:after,
+#store .prtab li a:hover:after {opacity:1;-webkit-transition: opacity 0.5s; -moz-transition: transition: opacity 0.5s;; -o-transition:transition: opacity 0.5s; transition: opacity 0.5s;}
+#store .prtab li a strong {width:100%;display:block;font-family: 'SMORyounStd-Regular-FD1';letter-spacing:-0.15rem;font-size:1.118rem;position:absolute;left: 50%;top: 50%; transform: translate(-50%, -50%);z-index:2}
+	/* 판매점 카테고리 미디어쿼리 */
+@media all and (max-width:1199px) {
+#store .prtab li {margin-right:1%;height:50px}
+#store .prtab li a strong {font-size:0.882rem}
+#store .prtab li a:before,
+#store .prtab li a:after {background-size:cover}
+}
+@media all and (max-width:980px) {
+#store .prtab li {width:32%;margin:0 2% 1.1% 0;height:62px;max-width:100%}
+#store .prtab li:nth-child(3n+3) {margin-right:0}
+#store .prtab li a strong {font-size:0.933rem}
+}
+@media all and (max-width:700px) {
+#store .prtab li {height:56px}
+}
+@media all and (max-width:425px) {
+#store .prtab li {height:40px}
+#store .prtab li a:before,
+#store .prtab li a:after {background-size:contain}
+}
+
+ /* 상단 */
+#store .shopsch {width:100%;border:1px solid #b0aca8;padding:2rem 2rem;display:inline-block;overflow:hidden;background-color:#fff;}
+#store .shopsch ul {width:72.04%;display:table;margin:0 auto}
+#store .shopsch li {width:25%;max-width:160px;height:45px;float:left;margin:0 0.5rem;}
+#store .shopsch li:nth-child(3) {width:40%;max-width:100%}
+#store .shopsch li:last-child {width:40%;max-width:100px;float:right}
+
+ /* 상단- 판매점 설명 */
+#store .box3 {margin-bottom:3rem}
+#store .box3 .boxtxt {padding:0.2rem 0}
+#store .box3 h5 {display:inline-block;font-size:1.353rem;margin-right:0.8rem}
+#store .box3 p {display:inline-block}
+
+ /* 상단- 폼 */
+#store .shopsch #city_search, 
+#store .shopsch #gu_search,
+#store .shopsch #store_search {width:100%;height:100%;padding:0 0.8rem;display:inline-block;font-size:0.941rem;background-color:#dccfc0}
+#store .shopbtn {width:100%;height:100%;font-size:0.941rem;line-height:3;text-align:center;background:#b21b1b;color:#fff;padding:0 0.8rem;display:inline-block !important;}
+#store .shopsch ::placeholder,
+#store .shopsch select  {color:#603913;opacity: 1;font-family: 'SMORyounStd-Regular-FD1'}
+#store .shopsch select {line-height:3}
+#store .shopsch input {line-height:1;}
+
+ /* 상단- 판매점 리스트 */
+#store .box2 {position:relative;width:100%;margin-top:3rem;overflow:hidden}
+#store .box2 .shoplist{float:left;width:40%;max-width:440px;display:inline-block}
+#store .box2 .mapbox{float:right;width:60%;max-width:600px}
+#store .box2 .mapbox .imgarea {width:100%;display:table;margin-bottom:1.5rem;border:1px solid #b0aca8;overflow:hidden}
+#store .box2 .maparea {border:1px solid #b0aca8;overflow:hidden}
+#store .box2 .list_wrap{width:100%;border:1px solid #b0aca8;overflow:hidden;background-color:#fff;}
+#store .box2 .list_wrap li {border-bottom:1px solid #b0aca8;padding:1rem 1rem;overflow:hidden}
+#store .box2 .list_wrap li:last-child {border-bottom:0}
+#store .box2 .list_wrap li dl {width:100%;display:inline-block}
+#store .box2 .list_wrap li dt,
+#store .search_wrap .shopschlist .list_wrap li dd{overflow:hidden}
+#store .box2 .list_wrap li dt{width:100%;font-size:0.882rem;font-weight:bold;margin-bottom:0.8rem;line-height:1.3}
+#store .box2 .list_wrap li dd{width:100%;font-size:0.882rem;font-weight:300;line-height:1.4}
+
+#store .box2 .list_wrap li dt span{display:inline-block;font-size:0.6rem;font-weight:300;color:#fff;padding:0.3rem 0.22rem;margin-right:0.2rem}
+#store .box2 .list_wrap li dt span.label_store {background:#b21b1b}
+#store .box2 .list_wrap li dt span.label_distrib {background:#f1ac1e}
+#store .box2 .list_wrap li dt span.label_agent {background:#5ebb51}
+
+  /* 상세보기 미디어쿼리 */
+@media all and (max-width:990px) {
+#store .shopsch {padding:1.5rem 0}
+#store .shopsch ul {width:96%}
+#store .shopsch li {width:46%;max-width:100%;margin:0 2% 4% 2%;}
+#store .shopsch li:nth-child(3) {width:57%;margin:0 0 0 2%}
+#store .shopsch li:last-child {width:35%;max-width:100%;margin:0 2% 0 0;}
+#store .shopbtn {font-size:1.133rem}
+}
+@media all and (min-width:991px) {
+#store .box22 {display:none}
+}
+@media all and (max-width:990px) {
+#store .box2 {display:none}
+ /* 상단- 판매점 리스트 */
+#store .box22 {position:relative;width:100%;margin-top:3rem;overflow:hidden}
+#store .box22 .shoplist{float:none;width:100%;max-width:100%;display:inline-block}
+#store .box22 .mapbox{float:none;width:100%;max-width:100%;margin-top:0.9rem}
+#store .box22 .mapbox .imgarea {width:100%;display:inline-block;margin-bottom:1rem;border:1px solid #b0aca8}
+#store .box22 .maparea {border:1px solid #b0aca8;overflow:hidden}
+#store .box22 .list_wrap{width:100%;border:1px solid #b0aca8;overflow:hidden;background-color:#fff;margin-bottom:1rem}
+#store .box22 .list_wrap #map {height:200px !mportant}
+#store .box22 .list_wrap .f_list {border-bottom:1px solid #b0aca8;padding:1rem 1rem;overflow:hidden}
+#store .box22 .list_wrap .f_list:last-child {border-bottom:0}
+#store .box22 .list_wrap .f_list dl {width:100%;display:inline-block}
+#store .box22 .list_wrap .f_list dt,
+#store .box22 .list_wrap .f_list dt{width:100%;font-size:0.882rem;font-weight:bold;margin-bottom:0.8rem}
+#store .box22 .list_wrap .f_list dt span{display:inline-block;font-size:0.6rem;font-weight:300;color:#fff;padding:0.3rem 0.22rem;margin-right:0.2rem}
+#store .box22 .list_wrap .f_list dt span.label_store{background:#b21b1b}
+#store .box22 .list_wrap .f_list dt span.label_distrib{background:#f1ac1e}
+#store .box22 .list_wrap .f_list dt span.label_agent{background:#5ebb51}
+#store .box22 .list_wrap .f_list dd{width:100%;font-size:0.882rem;font-weight:300;line-height:1.4}
+}

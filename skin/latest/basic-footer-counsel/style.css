@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+.font-ng { font-family:'Nanum Gothic' !important; }
+
+/* font weight */
+.fw-100 { font-weight: 100 !important; }
+.fw-200 { font-weight: 200 !important; }
+.fw-300 { font-weight: 300 !important; }
+.fw-400 { font-weight: 400 !important; }
+.fw-500 { font-weight: 500 !important; }
+.fw-600 { font-weight: 600 !important; }
+.fw-700 { font-weight: 700 !important; }
+.fw-800 { font-weight: 800 !important; }
+
+/* Font */
+.font-8, i.font-8 { 
+	font-size:8px; 
+}
+.font-9, i.font-9 { 
+	font-size:9px; 
+}
+.font-10, i.font-10 { 
+	font-size:10px; 
+}
+.font-11, i.font-11 { 
+	font-size:11px; 
+}
+.font-12, i.font-12 { 
+	font-size:12px; 
+}
+.font-13, i.font-13 { 
+	font-size:13px; 
+}
+.font-14, i.font-14 { 
+	font-size:14px; 
+}
+.font-16, i.font-16 { 
+	font-size:16px; 
+}
+.font-18, i.font-18 { 
+	font-size:18px; 
+}
+.font-20, i.font-20 { 
+	font-size:20px; 
+}
+.font-22, i.font-22 { 
+	font-size:22px; 
+}
+.font-24, i.font-24 { 
+	font-size:24px; 
+}
+.font-25, i.font-25 { 
+	font-size:25px; 
+}
+.font-30, i.font-30 { 
+	font-size:30px; 
+}
+.font-35, i.font-35 { 
+	font-size:35px; 
+}
+.font-40, i.font-40 { 
+	font-size:40px; 
+}
+.font-45, i.font-45 { 
+	font-size:45px; 
+}
+.font-50, i.font-50 { 
+	font-size:50px; 
+}
+.font-55, i.font-55 { 
+	font-size:55px; 
+}
+.font-60, i.font-60 { 
+	font-size:60px; 
+}
+/* Font */
+
+/* Color */
+.red, i.red { 
+	color:rgb(233, 27, 35) !important;
+}
+.darkred, i.darkred { 
+	color:rgb(170, 60, 63) !important;
+}
+.crimson, i.crimson { 
+	color:rgb(220, 20, 60) !important; 
+}
+.orangered, i.orangered { 
+	color:orangered !important; 
+}
+.orange, i.orange { 
+	color:rgb(240, 150, 20) !important;
+}
+.green, i.green { 
+	color:rgb(140, 195, 70) !important; 
+}
+.lightgreen, i.lightgreen { 
+	color:rgb(160, 200, 80) !important; 
+}
+.deepblue, i.deepblue { 
+	color:rgb(0, 125, 180) !important; 
+}
+.skyblue, i.skyblue { 
+	color:rgb(100, 195, 245) !important; 
+}
+.blue, i.blue { 
+	color:rgb(52, 152, 219) !important; 
+}
+.navy, i.navy { 
+	color:rgb(50, 60, 70) !important; 
+}
+.violet, i.violet { 
+	color:rgb(85, 60, 125) !important; 
+}
+.yellow, i.yellow { 
+	color:rgb(241, 196, 15) !important; 
+}
+.darkgray, i.darkgray { 
+	color:#666 !important; 
+}
+.gray, i.gray { 
+	color:#888 !important; 
+}
+.lightgray, i.lightgray { 
+	color:#ddd !important; 
+}
+.white, i.white { 
+	color:#fff !important; 
+}
+.light, i.light {
+	color:#f5f5f5 !important; 
+}
+.black, i.black { 
+	color:#333 !important; 
+}
+.color, i.color { 
+	color:rgb(233, 27, 35) !important;
+}
+/* Color ------------------------------------------------------ */
+
+/*하단 상담신청배너 st*/
+.quotation{position: fixed; bottom: 0px;z-index: 10002;width: 100%;}
+.footer_counsel {width: 100%;padding-top:0px;}
+.footer_counsel .foo_coun {width:1200px;margin: 0 auto;position: relative;height: 180px;}
+.footer_counsel .foo_sonbox {position: relative;height: 90px; border: 0px solid red;padding-top:6px;}
+.footer_counsel .footer_str_count {display: block;margin: 0 auto;text-align: left;font-size:30px;color: #fff;padding-top:28px;padding-bottom:8px;letter-spacing:-2px;font-weight: 100;}
+.footer_counsel .footer_month{font-weight: 400;}
+.footer_counsel .footer_count {font-weight: 400;color: #fff;}
+.footer_counsel .is1 {border: none;font-size:19px;color: #332c39;width:140px;color: #e65d5d;letter-spacing:-1px;}
+.footer_counsel .is2 {border: none;font-size:19px;color: #332c39;width:140px;color: #e65d5d;letter-spacing:-1px;}
+.footer_counsel .is3 {border: none;font-size:19px;color: #332c39;width:165px}
+.footer_counsel .f_a {float: left;width: 190px;height: 44px;padding-top: 10px;margin-left: 4px;padding-left: 8px;color: #444;background-color: #fff;border-radius:0px;}
+.footer_counsel .f_b {float: left;width: 190px;height: 44px;padding-top: 10px;margin-left: 4px;padding-left: 8px;color: #444;background-color: #fff;border-radius:0px;}
+.footer_counsel .f_b select {border: none;font-size:19px;width:140px;height:28px;padding:0 25px 0 3px;padding-right:0;line-height:24px;color: #e65d5d;letter-spacing:-1px;}
+.footer_counsel .f_c {float: left;width: 190px;height: 44px;padding-top: 10px;margin-left: 4px;padding-left: 8px;color: #444;background-color: #fff;border-radius:0px;}
+.footer_counsel .f_c input {width:100px;}
+.footer_counsel .f_d {float: left;width: 190px;height: 44px;padding-top: 10px;margin-left: 4px;padding-left: 8px;color: #444;background-color: #fff;border-radius:0px;}
+.footer_counsel .f_a1 {position:absolute;right:0px;top:35px; font-size:16px !important;color:#fff;letter-spacing:-1px}
+.footer_counsel .f_a2 {width:18px;height:18px; vertical-align: middle;border: 5px solid #3a3a3a;background-color: transparent;}
+.footer_counsel .f_bu {position: relative;float: right;border: 0px solid blue;}
+.footer_counsel .f_bus {width: 176px;height:44px;font-size:22px;letter-spacing: -2px;background: #df2028;border: none;color: #fff;cursor: pointer;}
+/*하단 상담신청배너 end*/
