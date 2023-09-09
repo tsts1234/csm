@@ -117,7 +117,7 @@
 						<div class="head" data-ani-name="fadeInUp">1533-4304</div>
 					</div>
 				</div>
-                
+                sdfdsf
                 
                 <div class="swiper-slide sli3">
 					<div class="img" style="background-image:url(<?php echo G5_THEME_URL?>/img/jin/main_03.jpg);"></div>
